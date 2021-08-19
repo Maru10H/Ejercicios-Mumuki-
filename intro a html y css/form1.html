@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel 1</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*blue text: #3f5778
+    blue btn: #1e62d8
+    input: #ebecee
+    text input: #bcc2cc
+    */
+
+    section{
+        display: flex;
+        height: 100vh;
+        background-image: url(pexels-roberto-nickson-2559941.jpg);
+        background-size: cover;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+        
+        border-radius: 3px;
+        background-color: white;
+        
+    }
+
+    .font-estilo{
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .contenrow{
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .cien {
+        width: 100%;
+    }
+
+    .cincuenta {
+        width: 50%;
+    }
+
+    .treinta {
+        flex: 1;
+    }
+
+    form label{
+        padding-bottom: 5px;
+        color: #3e485c;
+    }
+
+    form input, select{
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        color: #bcc2cc;
+        background-color: #ebecee;
+        
+    }
+
+
+    #gris {
+        color: #bcc2cc;
+    }
+
+    form .listadesple{
+        color: black;
+    }
+
+    form button{
+        padding: 15px;
+        border: none;
+        color: white;
+        background-color: #1e62d8;
+        border-radius: 3px;
+        transition: .2s all;
+        font-size: inherit;
+        font-weight: inherit;
+        
+    }
+
+    button:hover{
+        opacity: .9;
+    }
+
+    .titulo{
+        color: white;
+        width: 40%;
+    }
+
+    h1{
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+</style>
+
+
+<body>
+    <section>
+        
+        <form action="" class="font-estilo">
+
+            <div class="row">
+                <label for="">Your Destination</label>
+                <input type="text" placeholder="Enter a destination or hotel name">
+            </div>
+
+            <div class="contenrow">
+                <div class="row">
+                    <label for="">Check In</label>
+                    <input type="date">
+                </div>
+                <div class="row">    
+                    <label for="">Check out</label>
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="contenrow">
+                <div class="row treinta">
+                    <label for="">Rooms</label>
+                    <select name="select" class="listadesple">
+                        <option value="value1" selected>1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                    </select>
+                </div>
+                <div class="row treinta">    
+                    <label for="">Adults</label>
+                    <select name="select" class="listadesple">
+                        <option value="value1" selected>1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                    </select>
+                </div>
+                <div class="row treinta">    
+                    <label for="">Children</label>
+                    <select name="select" class="listadesple">
+                        <option value="value1" selected>0</option>
+                        <option value="value2">1</option>
+                        <option value="value3">2</option>
+                    </select>
+                </div>
+            </div>        
+
+            <div class="row cincuenta ">
+                <button>Check availability</button>
+            </div>
+        </form>
+
+        <div class="titulo">
+            <h1>make your reservation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat reprehenderit, error repellendus, molestias expedita, voluptatem quasi voluptate eaque fugiat nemo dignissimos magni similique suscipit fuga numquam officia qui illo assumenda.</p>
+        </div>
+    </section>
+    
+</body>
+</html>
