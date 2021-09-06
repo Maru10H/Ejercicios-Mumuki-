@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .conten-gral{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .flex-colum{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 400px;
+        background-color: #ebeced;
+        text-align: center;
+        padding: 0 70px;
+        border-radius: 8px;
+    }
+
+    .titular {
+        padding: 30px 0;
+    }
+
+    .titular p{
+        font-size: .9em;
+    }
+
+    .conten-botones {
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        display: flex;
+        width: 100px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 10px;
+        margin:5px;
+        border-radius: 5px;
+        border:none;
+        color: white;
+        
+    }
+
+    button:first-child{
+        background-color: #405896;
+    }
+
+    button:nth-child(2){
+        background-color: #23a1f2;
+    }
+
+    button:nth-child(3){
+        background-color: rgb(77, 77, 77);
+    }
+
+    button img{
+       margin-right: 5px;
+    }
+
+    .closewindow{
+        color: #d66d3e;
+        font-size: .8em;
+        padding: 20px 0;
+    }
+
+    .share{
+        padding-top: 20px;
+    }
+
+    .share span{
+        font-weight: 700;
+    }
+
+</style>
+<body>
+    <section class="conten-gral">
+        <section class="flex-colum">
+                   
+            <div class="titular">
+                <h3>Share this article</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, adipisci.</p>
+            </div>
+            <div class="conten-botones">
+                <button><img src="Webp.net-resizeimage (2).png" alt=""> Facebook</button>
+                <button><img src="Webp.net-resizeimage (2).png" alt=""> Twitter</button>
+                <button><img src="Webp.net-resizeimage (2).png" alt=""> Reddit</button>
+            </div>
+            <div class="share">
+                <p><span>4,5 K</span> Shares</p>
+            </div>
+            <div class="closewindow">
+                <p>Close this window</p>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
