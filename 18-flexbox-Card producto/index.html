@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    section{
+        
+        align-items: center;
+        display: flex;
+    }
+
+    main{
+        margin: 0 auto;
+        display: flex;
+        height: 580px;
+        width: 1000px;
+        border-radius: 30px;
+        box-shadow: 0 0px 12.6px -4px rgba(0, 0, 0, 0.075),
+                    0 0px 23px -4px rgba(0, 0, 0, 0.096),
+                    0 0px 36.1px -4px rgba(0, 0, 0, 0.113),
+                    0 0px 80px -4px rgba(0, 0, 0, 0.19)
+                    ;
+
+    }
+
+    aside{
+        display: flex;
+        width: 410px;
+        background-color: #DD0036;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    aside img{
+       width: 80%;
+       height: auto;
+    }
+
+    article{
+        width: 590px;
+        justify-content: space-evenly;
+        background-color: #091D2D;/**/
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 10px 40px 0 40px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+    }
+
+    article h1, button, h6{
+        text-transform: uppercase;
+    }
+
+    h1{
+        font-size: 3em;
+        margin: 0;
+    }
+
+    button{
+        color: inherit;
+        border: none;
+        
+    }
+
+    .conten-botones{
+        justify-content: space-between;
+        width: 50%;
+        display: flex;
+        margin-bottom: 30px;
+        
+    }
+
+    .conten-botones button{
+        border: 1px solid #DD0036;
+        border-radius: 50px;
+        padding: 8px;
+        background-color: transparent;
+        font-size: .7em;
+    }
+
+    #comprar{
+        background-color: #DD0036;
+        border-radius: 50px;
+        padding: 15px;
+        width: 32%;
+        font-size: .9em;
+        margin-bottom: 20px;
+    }
+
+    h6{
+        font-size: .8em;
+        margin:0;
+    }
+
+    span{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    
+
+</style>
+
+<body>
+    <section>
+        <main>
+            <aside>
+                <img src="pngkey.com-storm-trooper-png-1639888.png" alt="">
+            </aside>
+            <article>
+                <h1>stormtrooper helmet</h1>
+                <div class="conten-botones">
+                    <button>star wars</button>
+                    <button>merchandising</button>
+                    <button>sci fi</button>
+                </div>
+                <h6>Descripcion</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a nesciunt nulla, doloribus quis debitis soluta laboriosam voluptate tempore, consequatur illum iure cum reprehenderit nisi natus quo neque, repellat id quos fugit. Repudiandae eius nihil laborum eos voluptatem fugiat odit?</p>
+                <h6>precio</h6>
+                <span>$1,299.99</span>
+                <button id="comprar">comprar</button>
+            </article>
+        </main>
+    </section>
+</body>
+</html>
